@@ -54,6 +54,15 @@
 	display: none;
 }
 
+@media only screen and (max-width:50em){
+    .pater{
+        height: 100px !important;
+    }
+    .pater__img{
+        width: 100px !important;
+        height: 100px !important;
+    }
+}
 @media screen and (min-width: 50em) {
 	.pater {
 		text-align: right;
@@ -64,6 +73,7 @@
 		display: block;
 		font-size: 0.85em;
 		background: transparent;
+        height: 400px !important;
 	}
 	.pater::after {
 		top: 1.5em;
@@ -88,7 +98,7 @@
 		transition: opacity 0.3s, transform 0.3s;
 	}
 	.pater__img {
-		max-width: 200px;
+		max-width: 350px;
 		width: auto;
 		margin: 0;
 	}
