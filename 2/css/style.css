@@ -467,18 +467,12 @@ a:focus {
 	.content--layout {
 		transform: scale3d(0.8,0.8,1);
 	}
-    .content-title {
-        font-size: 5em !important;
-    }
 }
 
 @media screen and (max-width: 36em) {
 	.content--layout {
 		transform: scale3d(0.7,0.7,1);
 	}
-    .content-title {
-        font-size: 5em !important;
-    }
 }
 
 @media screen and (max-width: 32em) {
@@ -490,16 +484,10 @@ a:focus {
 	.content__link {
 		font-size: 1.35em;
 	}
-    .content-title {
-        font-size: 4em !important;
-    }
 }
 
 @media screen and (max-width: 28em) {
 	.content--layout {
 		transform: scale3d(0.5,0.5,1);
 	}
-    .content-title {
-        font-size: 4em !important;
-    }
 }
