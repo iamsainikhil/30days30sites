@@ -216,9 +216,9 @@ a:focus {
 .content__author {
 	grid-area: author;
 	margin: 0;
-	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr;
-	padding: 1em;
+	-webkit-writing-mode: horizontal-lr;
+	writing-mode: horizontal-lr;
+	padding: 5em 1em 1em 4em ;
 	text-align: right;
 	z-index: 10;
 	cursor: default;
